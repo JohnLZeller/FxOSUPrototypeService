@@ -1,5 +1,7 @@
 # FxOSUPrototypeService
 
+# Overview
+
 I used [PhoneNumberService](http://mxr.mozilla.org/mozilla-central/source/dom/phonenumberutils/PhoneNumberService.js) as a base, and basically rewrote all of the [PhoneNumberService](http://mxr.mozilla.org/mozilla-central/source/dom/phonenumberutils/PhoneNumberService.js) stuff into my own name, FxOSUPrototypeService.
 
 It seems like I am very close to having this working.
@@ -8,7 +10,7 @@ I rebuilt B2G with the new FxOSUPrototypeService, and then launched B2G with jsc
 
 Here is the diff of mozilla-central with my changes: http://zeller.pastebin.mozilla.org/8554236
 
-Do you have any idea what I am missing here?
+## Changes I've Made
 
 I have added the following files:
 * dom/fxosuprototype/[FxOSUPrototypeService.js](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/FxOSUPrototypeService.js)
