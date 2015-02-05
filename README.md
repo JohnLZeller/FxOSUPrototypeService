@@ -17,8 +17,8 @@ I have added the following files:
 * dom/webidl/[FxOSUPrototypeService.webidl](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/webidl/FxOSUPrototypeService.webidl)
 
 And I have modified these files:
-* b2g/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/b2g/installer/package-manifest.in)
-* browser/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/browser/installer/package-manifest.in)
-* mobile/android/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/mobile/android/installer/package-manifest.in)
-* dom/apps/[PermissionsTable.jsm](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/apps/PermissionsTable.jsm)
-* dom/webidl/[moz.build](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/webidl/moz.build)
+* b2g/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/b2g/installer/package-manifest.in#L366-L367) (Lines 366 to 376)
+* browser/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/browser/installer/package-manifest.in#L561-L562) (Lines 561 to 562)
+* mobile/android/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/mobile/android/installer/package-manifest.in#L303-L304) (Lines 303 to 304)
+* dom/apps/[PermissionsTable.jsm](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/apps/PermissionsTable.jsm#L218-L223) (Lines 218 to 223)
+* dom/webidl/[moz.build](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/webidl/moz.build#L146) (Line 146)
