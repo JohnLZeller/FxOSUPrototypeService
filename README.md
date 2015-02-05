@@ -8,7 +8,7 @@ It seems like I am very close to having this working.
 
 I rebuilt B2G with the new FxOSUPrototypeService, and then launched B2G with jsconsole. From there I called my new API navigator.mozFxOSUPrototypeService and received an error of NS_ERROR_FACTORY_NOT_REGISTERED. I am not sure what else I am missing here. I have used mxr to find all the mentioned of PhoneNumberService, so that I could make sure that my own service is mentioned in the same places. I even places the FxOSUPrototypeService into the package manifests for b2g, browser, and android... since later I'll want to be using those anyway.
 
-Here is the diff of mozilla-central with my changes: http://zeller.pastebin.mozilla.org/8554236
+Here is the [diff of mozilla-central with my changes](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/FxOSUPrototypeService.diff).
 
 ## Changes I've Made
 
