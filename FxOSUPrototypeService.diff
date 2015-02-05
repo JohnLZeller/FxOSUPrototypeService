@@ -72,7 +72,7 @@ diff --git a/dom/fxosuprototype/FxOSUPrototypeService.js b/dom/fxosuprototype/Fx
 new file mode 100644
 --- /dev/null
 +++ b/dom/fxosuprototype/FxOSUPrototypeService.js
-@@ -0,0 +1,45 @@
+@@ -0,0 +1,44 @@
 +/* This Source Code Form is subject to the terms of the Mozilla Public
 + * License, v. 2.0. If a copy of the MPL was not distributed with this file,
 + * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -112,8 +112,7 @@ new file mode 100644
 +
 +  classID : Components.ID("{9c72ce25-06d6-4fb8-ae9c-431652fce848}"),
 +  contractID : "@mozilla.org/fxosuPrototypeService;1",
-+  QueryInterface : XPCOMUtils.generateQI([Ci.nsIDOMGlobalPropertyInitializer,
-+                                          Ci.nsISupportsWeakReference,
++  QueryInterface : XPCOMUtils.generateQI([Ci.nsISupportsWeakReference,
 +                                          Ci.nsIObserver]),
 +}
 +

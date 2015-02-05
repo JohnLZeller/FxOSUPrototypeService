@@ -37,8 +37,7 @@ FxOSUPrototypeService.prototype = {
 
   classID : Components.ID("{9c72ce25-06d6-4fb8-ae9c-431652fce848}"),
   contractID : "@mozilla.org/fxosuPrototypeService;1",
-  QueryInterface : XPCOMUtils.generateQI([Ci.nsIDOMGlobalPropertyInitializer,
-                                          Ci.nsISupportsWeakReference,
+  QueryInterface : XPCOMUtils.generateQI([Ci.nsISupportsWeakReference,
                                           Ci.nsIObserver]),
 }
 
