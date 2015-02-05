@@ -6,6 +6,19 @@ I used [PhoneNumberService.js](http://mxr.mozilla.org/mozilla-central/source/dom
 
 Here is the [diff of mozilla-central with my changes](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/FxOSUPrototypeService.diff) to [mozilla-central](http://hg.mozilla.org/mozilla-central/).
 
+## Current Problems
+
+I am attempting to get access to network stats info, whether it be through [NetworkStatsManager](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStatsManager), [NetworkStatsData](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStatsData) or [NetworkStats](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStats).
+
+I have added 2 lines to my [FxOSUPrototypeService.js](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/FxOSUPrototypeService.js), which attempt to use the NetworkStatsService.jsm and the NetworkStatsManager xpcom component. Both fail.
+
+The attempts are:
+* Cu.import("resource://gre/modules/NetworkStatsService.jsm");
+	* Error is: NS_ERROR_FILE_NOT_FOUND
+* var networkStatsManager = Cu["@mozilla.org/networkStatsManager;1"].createInstance(Ci.nsIDOMNetworkStatsManager);
+	* Error is: TypeError Cu["@mozilla.org/networkStatsManager;1"] is undefined
+
+
 ## Changes I've Made
 
 I have added the following files:
