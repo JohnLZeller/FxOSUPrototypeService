@@ -11,14 +11,14 @@ Here is the diff of mozilla-central with my changes: http://zeller.pastebin.mozi
 Do you have any idea what I am missing here?
 
 I have added the following files:
-* dom/fxosuprototype/FxOSUPrototypeService.js
-* dom/fxosuprototype/FxOSUPrototypeService.manifest
-* dom/fxosuprototype/moz.build
-* dom/webidl/FxOSUPrototypeService.webidl
+* dom/fxosuprototype/[FxOSUPrototypeService.js](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/FxOSUPrototypeService.js)
+* dom/fxosuprototype/[FxOSUPrototypeService.manifest](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/FxOSUPrototypeService.manifest)
+* dom/fxosuprototype/[moz.build](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/moz.build)
+* dom/webidl/[FxOSUPrototypeService.webidl](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/webidl/FxOSUPrototypeService.webidl)
 
 And I have modified these files:
-* b2g/installer/package-manifest.in
-* browser/installer/package-manifest.in
-* dom/apps/PermissionsTable.jsm
-* dom/webidl/moz.build
-* mobile/android/installer/package-manifest.in
+* b2g/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/b2g/installer/package-manifest.in)
+* browser/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/browser/installer/package-manifest.in)
+* mobile/android/installer/[package-manifest.in](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/mobile/android/installer/package-manifest.in)
+* dom/apps/[PermissionsTable.jsm](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/apps/PermissionsTable.jsm)
+* dom/webidl/[moz.build](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/webidl/moz.build)
