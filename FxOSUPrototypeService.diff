@@ -141,6 +141,27 @@ new file mode 100644
 +    'FxOSUPrototypeService.js',
 +    'FxOSUPrototypeService.manifest',
 +]
+diff --git a/dom/moz.build b/dom/moz.build
+--- a/dom/moz.build
++++ b/dom/moz.build
+@@ -47,16 +47,17 @@ DIRS += [
+     'bindings',
+     'battery',
+     'browser-element',
+     'canvas',
+     'cellbroadcast',
+     'contacts',
+     'crypto',
+     'phonenumberutils',
++    'fxosuprototype',
+     'alarm',
+     'datastore',
+     'devicestorage',
+     'encoding',
+     'events',
+     'fetch',
+     'filehandle',
+     'filesystem',
 diff --git a/dom/webidl/FxOSUPrototypeService.webidl b/dom/webidl/FxOSUPrototypeService.webidl
 new file mode 100644
 --- /dev/null
