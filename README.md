@@ -8,15 +8,7 @@ Here is the [diff of mozilla-central with my changes](https://github.com/JohnLZe
 
 ## Current Problems
 
-I am attempting to get access to network stats info, whether it be through [NetworkStatsManager](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStatsManager), [NetworkStatsData](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStatsData) or [NetworkStats](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMMozNetworkStats).
-
-I have added 2 lines to my [FxOSUPrototypeService.js](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/dom/fxosuprototype/FxOSUPrototypeService.js), which attempt to use the NetworkStatsService.jsm and the NetworkStatsManager xpcom component. Both fail.
-
-The attempts are:
-* Cu.import("resource://gre/modules/NetworkStatsService.jsm");
-	* Error is: NS_ERROR_FILE_NOT_FOUND
-* var networkStatsManager = Cu["@mozilla.org/networkStatsManager;1"].createInstance(Ci.nsIDOMNetworkStatsManager);
-	* Error is: TypeError Cu["@mozilla.org/networkStatsManager;1"] is undefined
+I am attempting to build B2G onto my Flame, packaging this new FxOSUPrototypeService. It works fine on B2G-Desktop, but when I call navigator.mozFxOSUPrototypeService from the WebIDE on the Flame, I get back 'undefined'. What am I missing to properly package this with my B2G device build?
 
 
 ## Changes I've Made

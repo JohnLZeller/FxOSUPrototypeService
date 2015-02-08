@@ -17,12 +17,6 @@ Cu.import("resource://gre/modules/DOMRequestHelper.jsm");
 Cu.import("resource://gre/modules/PhoneNumberUtils.jsm");
 Cu.import("resource://gre/modules/PhoneNumberNormalizer.jsm");
 
-// Attempt 1
-Cu.import("resource://gre/modules/NetworkStatsService.jsm");
-
-// Attempt 2
-var networkStatsManager = Cu["@mozilla.org/networkStatsManager;1"].createInstance(Ci.nsIDOMNetworkStatsManager);
-
 XPCOMUtils.defineLazyServiceGetter(this, "cpmm",
                                    "@mozilla.org/childprocessmessagemanager;1",
                                    "nsIMessageSender");
