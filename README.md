@@ -6,10 +6,11 @@ I used [PhoneNumberService.js](http://mxr.mozilla.org/mozilla-central/source/dom
 
 Here is the [diff of mozilla-central with my changes](https://github.com/JohnLZeller/FxOSUPrototypeService/blob/master/FxOSUPrototypeService.diff) to [mozilla-central](http://hg.mozilla.org/mozilla-central/).
 
-## Current Problems
-
-I am attempting to build B2G onto my Flame, packaging this new FxOSUPrototypeService. It works fine on B2G-Desktop, but when I call navigator.mozFxOSUPrototypeService from the WebIDE on the Flame, I get back 'undefined'. What am I missing to properly package this with my B2G device build?
-
+It is currently working for the following platforms:
+* B2G Desktop
+* B2G Device
+* Firefox Desktop (untested)
+* Firefox for Android (untested)
 
 ## Changes I've Made
 
