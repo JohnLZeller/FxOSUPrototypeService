@@ -5,8 +5,7 @@
  */
 
 [JSImplementation="@mozilla.org/fxosuPrototypeService;1",
- NavigatorProperty="mozFxOSUPrototypeService",
- CheckPermissions="fxosuprototypeservice"]
+ NavigatorProperty="mozFxOSUPrototypeService"]
 interface FxOSUPrototypeService {
   DOMString helloWorld();
 };
